@@ -1,1 +1,6 @@
-"" 
+# Modèles YOLO (trop lourds pour GitHub)
+*.pt
+models/*.pt
+
+# Résultats de détection
+runs/
