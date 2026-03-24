@@ -1,6 +1,13 @@
 # Modèles YOLO (trop lourds pour GitHub)
 *.pt
 models/*.pt
+!models/best.pt 
 
-# Résultats de détection
-runs/
+# Ignorer les fichiers temporaires Python et systèmes
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+# Ignorer le dataset (trop lourd pour GitHub)
+data/dfire/

@@ -1,12 +1,25 @@
+import os
 from ultralytics import YOLO
-import cv2
 
-# Charger le modèle depuis le dossier models/
-model = YOLO('models/yolo26n.pt')
+print("--- FireVision : Système de Détection ---")
 
-# Lancer la détection sur ton image
-# 'save=True' va créer un dossier avec l'image entourée de cadres
-results = model.predict(source='tests_media/test.jpg', conf=0.25, save=True)
+# 1. Charger le modèle
+model_path = '../models/best.pt'
+model = YOLO(model_path)
 
-print("\n--- Détection terminée ! ---")
-print(f"Va voir tes résultats dans : {results[0].save_dir}")
+# 2. Définir le média à analyser (Image ou Vidéo)
+media_path = 'tests_media/forest.jpg' 
+
+# 3. Lancer la prédiction avec des paramètres optimisés
+if os.path.exists(media_path):
+    print(f"Analyse en cours sur : {media_path} ...")
+    results = model.predict(
+        source=media_path,
+        conf=0.40,
+        save=True,
+        line_width=2,
+        exist_ok=True             # Écrase le fichier précédent au lieu de créer predict2, predict3...
+    )
+    print(f"\nSuccès ! Résultat sauvegardé dans : {results[0].save_dir}")
+else:
+    print(f"Erreur : Le fichier {media_path} est introuvable.")
