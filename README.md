@@ -136,11 +136,3 @@ python src/detect.py
 
 _Note : Les résultats générés (images ou vidéos annotées) seront automatiquement sauvegardés dans le dossier `runs/detect/predict/`._
 
----
-
-## 👨‍💻 À propos de l'Auteur
-
-**Sofiane Meziane**
-_Étudiant en Master 1 Intelligence Artificielle — Université de Béjaïa_
-
-Ce projet a été développé dans le but de consolider mes compétences en vision par ordinateur et en conception de systèmes intelligents de bout en bout.
