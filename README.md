@@ -23,7 +23,7 @@ _(Le modèle identifie avec précision les zones critiques et dessine des boîte
 
 _(Test d'inférence continue sur un flux vidéo)_
 
-https://github.com/user-attachments/assets/f90bff49-6ab4-4b4a-b3b1-aa1895c4fa39
+https://github.com/user-attachments/assets/71718bd5-5d90-4596-8f50-b69776def47b
 
 ---
 
