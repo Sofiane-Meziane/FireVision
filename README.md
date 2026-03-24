@@ -2,7 +2,7 @@
 
 ## 📖 Présentation du Projet
 
-FireVision est un système de vision par ordinateur basé sur l'architecture **YOLOv8s** (Ultralytics), conçu pour détecter les départs de feu et la fumée en temps réel. Entraîné sur le dataset **D-Fire** (14 122 images), ce modèle offre un excellent compromis entre vitesse d'inférence et précision, ce qui le rend idéal pour des systèmes d'alerte précoce.
+FireVision est un système de vision par ordinateur basé sur l'architecture **YOLO26s** (Ultralytics), conçu pour détecter les départs de feu et la fumée en temps réel. Entraîné sur le dataset **D-Fire** (14 122 images), ce modèle offre un excellent compromis entre vitesse d'inférence et précision, ce qui le rend idéal pour des systèmes d'alerte précoce.
 
 ---
 
@@ -23,8 +23,8 @@ _(Le modèle identifie avec précision les zones critiques et dessine des boîte
 
 _(Test d'inférence continue sur un flux vidéo)_
 
-<video src="runs/detect/predict/vidfire.MP4" controls="controls" width="100%">
-    Votre navigateur ne supporte pas la balise vidéo.
+<video src="runs/detect/predict/vidfire.mp4" controls="controls" style="max-width: 100%;">
+  Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
 
 ---
@@ -86,7 +86,7 @@ Les courbes suivantes résument l'évolution des pertes et métriques pendant l'
 
 | Paramètre              | Valeur                       |
 | ---------------------- | ---------------------------- |
-| **Architecture**       | YOLOv8s (Ultralytics 8.4.26) |
+| **Architecture**       | YOLO26s (Ultralytics 8.4.26) |
 | **Couches**            | 122 (fusionnées)             |
 | **Paramètres**         | 9 465 954                    |
 | **GFLOPs**             | 20,5                         |
