@@ -8,7 +8,7 @@ model_path = '../models/best.pt'
 model = YOLO(model_path)
 
 # 2. Définir le média à analyser (Image ou Vidéo)
-media_path = 'tests_media/forest.jpg' 
+media_path = 'tests_media/vidfire.mp4' 
 
 # 3. Lancer la prédiction avec des paramètres optimisés
 if os.path.exists(media_path):
