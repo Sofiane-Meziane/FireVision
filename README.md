@@ -1,8 +1,8 @@
-# 🔥 FireVision : Système Intelligent de Détection d'Incendies
+# 🔥 FireVision : Modèle de Détection d'Incendies et de Fumée
 
 ## 📖 Présentation du Projet
 
-FireVision est un système de vision par ordinateur basé sur l'architecture **YOLO26s** (Ultralytics), conçu pour détecter les départs de feu et la fumée en temps réel. Entraîné sur le dataset **D-Fire** (14 122 images), ce modèle offre un excellent compromis entre vitesse d'inférence et précision, ce qui le rend idéal pour des systèmes d'alerte précoce.
+FireVision est un modèle de vision par ordinateur basé sur YOLO26s (Ultralytics), conçu pour détecter les départs de feu et de fumée en temps réel. Entraîné sur le dataset D-Fire (14 122 images), ce modèle offre un excellent compromis entre vitesse d'inférence et précision, ce qui le rend idéal pour être intégré au cœur de systèmes d'alerte précoce.
 
 ---
 
